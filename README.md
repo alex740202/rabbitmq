@@ -35,10 +35,6 @@
 
 ![screen6](./img/screen6.png)
 
-```markdown
-<details>
-<summary>Полный лог запуска</summary>
-
 ```bash
 $ docker exec rabbitmq-rabbitmq1-1 rabbitmqctl cluster_status
 Cluster status of node rabbit@rabbitmq1 ...
@@ -96,8 +92,6 @@ Flag: quorum_queue, state: enabled
 Flag: stream_queue, state: enabled
 Flag: user_limits, state: enabled
 Flag: virtual_host_metadata, state: enabled
-
-</details> ```
 ```
 Скриншот выполнения команды
 
@@ -106,3 +100,7 @@ $ rabbitmqadmin get queue='hello'
 ```
 
 ![screen7](./img/screen7.png)
+
+Работа кластера RabbitMQ
+
+![screen8](./img/screen8.png)
