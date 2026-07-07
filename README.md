@@ -100,8 +100,7 @@ Flag: user_limits, state: enabled
 Flag: virtual_host_metadata, state: enabled
 </details>
 
-<br><br>
-
+<br>
 Скриншот выполнения команды
 
 ```bash
