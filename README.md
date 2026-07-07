@@ -38,6 +38,9 @@
 Вывод команды:
 ```bash
 $ docker exec rabbitmq-rabbitmq1-1 rabbitmqctl cluster_status
+```
+<details>
+<summary>Вывод</summary>
 Cluster status of node rabbit@rabbitmq1 ...
 Basics
 
@@ -93,7 +96,7 @@ Flag: quorum_queue, state: enabled
 Flag: stream_queue, state: enabled
 Flag: user_limits, state: enabled
 Flag: virtual_host_metadata, state: enabled
-```
+</details>
 
 
 Скриншот выполнения команды
