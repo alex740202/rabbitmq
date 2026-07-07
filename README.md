@@ -100,7 +100,7 @@ Flag: user_limits, state: enabled
 Flag: virtual_host_metadata, state: enabled
 </details>
 
-
+<br><br>
 
 Скриншот выполнения команды
 
@@ -110,7 +110,7 @@ $ rabbitmqadmin get queue='hello'
 
 ![screen7](./img/screen7.png)
 
-
+<br>
 Работа кластера RabbitMQ
 
 ![screen8](./img/screen8.png)
