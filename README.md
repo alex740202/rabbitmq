@@ -31,16 +31,18 @@
 
 ![screen5](./img/screen5.png)
 
+
 Создана политика ha-all на все очереди.
 
 ![screen6](./img/screen6.png)
+
 
 Вывод команды:
 ```bash
 $ docker exec rabbitmq-rabbitmq1-1 rabbitmqctl cluster_status
 ```
 <details>
-<summary>Вывод</summary>
+<summary>Вывод (развернуть)</summary>
 Cluster status of node rabbit@rabbitmq1 ...
 Basics
 
@@ -99,6 +101,7 @@ Flag: virtual_host_metadata, state: enabled
 </details>
 
 
+
 Скриншот выполнения команды
 
 ```bash
@@ -106,6 +109,7 @@ $ rabbitmqadmin get queue='hello'
 ```
 
 ![screen7](./img/screen7.png)
+
 
 Работа кластера RabbitMQ
 
